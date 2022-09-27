@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css"></head>
+  <body>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #ff075f;"> 
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navigation system</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="DS.html">DS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="DSI.html">DSI</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="3DS.html">3DS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="2DS.html">2DS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="NEW3DS.html">New 3DS</a>
+              </li>
+              
+              
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://th.bing.com/th/id/OIP.5kKi_SdHG1b8y-ifPNG6DAHaEH?pid=ImgDet&rs=1" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://th.bing.com/th/id/OIP.ViutiWzK6ggvEYPMDD1psgHaEK?pid=ImgDet&rs=1" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://i.ytimg.com/vi/szIQEgLP48Q/maxresdefault.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+               <h1>DS</h1>
+               <img height="200px" src=https://static.wikia.nocookie.net/nintendo/images/b/b1/Nintendo_DS_-_Original_Grey_Model.png/revision/latest?cb=20120827170725&path-prefix=en> <p>Source: NintendoFandom.com  <a href=https://static.wikia.nocookie.net/nintendo/images/b/b1/Nintendo_DS_-_Original_Grey_Model.png/revision/latest?cb=20120827170725&path-prefix=en> Nintendo DS </a></p></li>  
+            </div>
+            <div class="col-sm-4">
+               <h1>DSI</h1> 
+               <img height="200px" src="https://upload.wikimedia.org/wikipedia/commons/8/85/Nintendo-DSi-Bl-Open.jpg"> <p>Source:Wikipedia.com <a href=https://en.wikipedia.org/wiki/Nintendo_DSi>Nintendo DSI</a></p></li>
+            </div>
+            <div class="col-sm-4">
+                <h1>3DS</h1>
+                <img height="200px" src="https://upload.wikimedia.org/wikipedia/commons/f/f0/Nintendo-3DS-AquaOpen.jpg"> <p>Source:Wikipedia.com <a href=https://en.wikipedia.org/wiki/Nintendo_3DS>Nintendo 3DS</a></p></li>
+                </div>
+            
+            <div class="row">
+                <div class="col-sm-6">
+                   <h1>2DS</h1>
+                    <img height="200px" src="data:image/jpeg;base64,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"><p>Source:Wikipedia.com <a href=https://en.wikipedia.org/wiki/Nintendo_2DS>Nintendo 2DS</a></p></li>
+                </div>
+                <div class="col-sm-6">
+                   <h1>NEW3DS</h1> 
+                   <img height="200px" src="https://upload.wikimedia.org/wikipedia/commons/a/a1/New_Nintendo_3DS.png"> <p>Source:Wikipedia.com <a href=https://en.wikipedia.org/wiki/New_Nintendo_3DS>New Nintendo 3DS</a></p></li>
+                </div>
+            </div>
+        
+        </div>
+      </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+  </body>
+</html>

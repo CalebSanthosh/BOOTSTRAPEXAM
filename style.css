@@ -1,0 +1,11 @@
+body{
+    background-color:#ffe3d0; 
+    color:rgb(255, 255, 255)
+}
+.row{
+    font-size:30px;
+}
+a{
+    color:white;
+    text-decoration:none
+}
