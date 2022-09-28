@@ -1,6 +1,6 @@
 body{
     background-color:#ffe3d0; 
-    color:rgb(255, 255, 255)
+    color:lightpink
 }
 .row{
     font-size:30px;
@@ -8,4 +8,31 @@ body{
 a{
     color:white;
     text-decoration:none
+}
+
+.mint{
+    background-color:#DBFFED;
+    color:palegreen
+}
+.sky{
+    background-color:#A7D5F9;
+    color:paleturquoise
+}
+
+.lavender{
+    background-color: #eadbff;
+    color:lightcyan
+}
+.fallenash{
+    background-color: #A5A7D6;
+    color:lightslategray
+}
+.rose{
+    background-color: #ffdbec;
+    color:lightgray
+}
+h1{
+    text-align:center;
+    font-size:90px;
+    margin-top: 45px;
 }
